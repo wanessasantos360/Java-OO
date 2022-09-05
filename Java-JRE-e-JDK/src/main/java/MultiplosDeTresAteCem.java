@@ -5,6 +5,9 @@ public class MultiplosDeTresAteCem {
         * fazer o for, e utilizar numero % 3 para descobrir o resto da divisão de um número por 3
         * (o operador % se chama de módulo). Se o resto for zero, ele é divisível por 3.
         */
+        for (int i = 1; i<=100; i++){
+            if(i%3 == 0) System.out.println(i + " é divisível por 3.");
+        }
 
     }
 }
